@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="48dp"
+        android:padding="10dp"
+        android:text="Code Next Programs"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/clubs_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="36dp"
+            android:background="#C5D5EA"
+            android:textAllCaps="false"
+            android:text="Clubs" />
+        <Button
+            android:id="@+id/bootcamps_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="36dp"
+            android:background="#D5E8C5"
+            android:textAllCaps="false"
+            android:text="Bootcamps" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/te_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="36dp"
+            android:background="#CFCEE5"
+            android:textAllCaps="false"
+            android:text="Team\nEdge" />
+        <Button
+            android:id="@+id/launch_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="36dp"
+            android:background="#F7A9A8"
+            android:textAllCaps="false"
+            android:text="Launch" />
+
+    </LinearLayout>
+</LinearLayout>
